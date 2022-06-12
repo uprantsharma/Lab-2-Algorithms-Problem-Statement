@@ -1,12 +1,15 @@
-package com.paymoney.transactions;
+package com.traveler.currency;
 
 public class main {
+	
+// Method to object to the class and print the result.
 
-//creating an object of class and printing result
 public static void main(String[] args) {
-	transactions trxbyuser = new transactions();
-	trxbyuser.inputFromUser();
+	denominationinterface di = new denominationinterface();
+	di.userInput();
+	di.getOutput();
 	}
 }
+
 
 //By ~Uprant
